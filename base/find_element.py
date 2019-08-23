@@ -1,6 +1,8 @@
 #coding=utf-8
 from util.read_ini import ReadIni
 from log.user_log import UserLog
+
+
 class FindElement(object):
     def __init__(self,driver):
         self.driver = driver

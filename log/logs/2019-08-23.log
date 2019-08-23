@@ -1,0 +1,5 @@
+2019-08-23 19:02:24,600 user_log.py--> <module> 20: INFO ----->test
+2019-08-23 19:07:57,878 user_log.py--> <module> 20: INFO ----->test
+2019-08-23 19:12:09,075 user_log.py--> <module> 20: INFO ----->首页日志-----
+2019-08-23 19:12:09,075 user_log.py--> <module> 20: INFO ----->订单日志-----
+2019-08-23 19:12:09,075 user_log.py--> <module> 20: INFO ----->活动页日志-----
