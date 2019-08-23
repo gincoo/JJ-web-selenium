@@ -1,7 +1,7 @@
 #codinng=utf-8
 import pytesseract
 from PIL import Image
-from ShowapiRequest import ShowapiRequest
+from util.ShowapiRequest import ShowapiRequest
 #image = Image.open("E:/imooc2.png")
 #text = pytesseract.image_to_string(image)
 #print(text)

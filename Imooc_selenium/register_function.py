@@ -1,27 +1,30 @@
 #coding=utf-8
 import sys
-sys.path.append('E:/Teacher/Imooc/SeleniumPython')
+# sys.path.append('E:/Teacher/Imooc/SeleniumPython')
 from selenium import webdriver
 import time
 import random
 from PIL import Image
-from find_element import FindElement
-from ShowapiRequest import ShowapiRequest
+from base.find_element import FindElement
+from util.ShowapiRequest import ShowapiRequest
+
 class RegisterFunction(object):
+
     def __init__(self,url,i):
         self.driver = self.get_driver(url,i)
+
     #获取driver并且打开url
     def get_driver(self,url,i):
         if i == 1:
             driver = webdriver.Chrome()
         elif i == 2:
-
             driver = webdriver.Firefox()
         else:
             driver = webdriver.Edge()
         driver.get(url)
         driver.maximize_window()
         return driver
+
     #输入用户信息
     def send_user_info(self,key,data):
         self.get_user_element(key).send_keys(data)

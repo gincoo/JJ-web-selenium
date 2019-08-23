@@ -1,7 +1,7 @@
 # coding=utf-8
 import sys
 
-sys.path.append('E:\\Teacher\\Imooc\\SeleniumPython')
+# sys.path.append('E:\\Teacher\\Imooc\\SeleniumPython')
 import traceback
 from business.register_business import RegisterBusiness
 from selenium import webdriver

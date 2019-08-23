@@ -4,10 +4,12 @@ import time
 import random
 import pytesseract
 from PIL import Image
-from ShowapiRequest import ShowapiRequest
+from util.ShowapiRequest import ShowapiRequest
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
+
+
 driver = webdriver.Chrome()
 #driver2 = webdriver.Firefox()
 #driver1 = webdriver.Edge()

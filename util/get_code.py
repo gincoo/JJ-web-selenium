@@ -19,7 +19,7 @@ class GetCode:
         right = code_element.size['width'] + left
         height = code_element.size['height'] + top
         im = Image.open(file_name)
-        img = im.crop((left, top, right, height))
+        img = im.crop(left, top, right, height)
         img.save(file_name)
         time.sleep(1)
 

@@ -5,6 +5,7 @@ from handle.register_handle import RegisterHandle
 # business 业务层
 #
 class RegisterBusiness:
+
     def __init__(self,driver):
         self.register_h = RegisterHandle(driver)
 
@@ -37,6 +38,7 @@ class RegisterBusiness:
             return True
         else:
             return False
+
     #name错误
     def login_name_error(self,email,name,password,file_name):
         self.user_base(email,name,password,file_name)

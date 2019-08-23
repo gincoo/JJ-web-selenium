@@ -5,6 +5,7 @@ from util.get_code import GetCode
 from log.user_log import UserLog
 
 class RegisterHandle(object):
+
     def __init__(self,driver):
         self.driver = driver
         self.register_p = RegisterPage(self.driver)

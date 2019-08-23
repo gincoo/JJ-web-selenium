@@ -4,7 +4,11 @@ import time
 import random
 from PIL import Image
 from util.ShowapiRequest import ShowapiRequest
+
+
 driver = webdriver.Chrome()
+
+
 #浏览器初始化
 def driver_init(): 
     driver.get("http://www.5itest.cn/register")
@@ -18,6 +22,8 @@ def get_element(id):
 
 #获取随机数
 def get_range_user():
+    # random.sample 返回数组
+    #''.join 拼接数组
     user_info = ''.join(random.sample('1234567890abcdefghijklmn',8))
     return user_info
 

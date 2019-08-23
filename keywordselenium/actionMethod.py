@@ -2,7 +2,9 @@
 from selenium import webdriver
 from base.find_element import FindElement
 import time
+
 class ActionMethod:
+
     #打开浏览器
     def open_browser(self,browser):
         if browser == 'chrome':
